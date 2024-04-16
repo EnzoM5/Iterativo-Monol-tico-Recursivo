@@ -1,0 +1,27 @@
+A-> int num
+B-> int i = 2
+C-> scanf("%d", &num)
+
+*D-> num <= 1
+ E-> print("Erro")
+
+F-> i < num/2
+G-> num % i == 0
+H-> print("Não é primo")
+I-> i++
+J->print("é primo")
+K-> BREAK;
+
+
+Maquina de Traços
+n = 3
+
+(1, A)
+(2, AB)
+(3, ABC)
+(4, ABCF)
+(5, ABCFG)
+(6, ABCFGI)
+(7, ABCFGIJ)
+(8, ABCFGIJK)
+(Rx, ABCFGIJK)

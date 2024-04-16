@@ -1,0 +1,20 @@
+A-> int num;
+B*-> num < 2;
+C-> print("Não é primo")
+D-> i in range(2,num)
+E*-> num % i = 0
+F-> print("não é primo")
+G-> print("é primo")
+H-> BREAK;
+
+Maquina de Traços
+n=3
+
+(1, vazio)
+(2, A)
+(3, AB)
+(4, ABD)
+(5, ABDE)
+(6, ABDEG)
+(7, ABDEGH)
+(Rx, ABDEGH)

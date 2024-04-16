@@ -1,0 +1,25 @@
+A-> int num
+B-> int i = 2
+C*-> num < 2
+D-> print('não é primo')
+E*-> i < num
+F*-> num % i == 0
+G-> print("Não é primo")
+H-> verificar_primo_recursivo(num, i+1)
+I-> print("É primo")
+J-> BREAK;
+
+Maquina de Traços
+n = 3
+
+(1, vazio)
+(2, A)
+(3, AB)
+(4, ABC)
+(5, ABCE)
+(6, ABCEF)
+(7, ABCEFH)
+(8, ABCEFHI)
+(9, ABCEFHIJ)
+(Rx, ABCEFHIJ)
+
