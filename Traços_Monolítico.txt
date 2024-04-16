@@ -5,8 +5,8 @@ C-> scanf("%d", &num)
 *D-> num <= 1
  E-> print("Erro")
 
-F-> i < num/2
-G-> num % i == 0
+*F-> i < num/2
+*G-> num % i == 0
 H-> print("Não é primo")
 I-> i++
 J->print("é primo")
@@ -16,12 +16,13 @@ K-> BREAK;
 Maquina de Traços
 n = 3
 
-(1, A)
-(2, AB)
-(3, ABC)
-(4, ABCF)
-(5, ABCFG)
-(6, ABCFGI)
-(7, ABCFGIJ)
-(8, ABCFGIJK)
+(1, vazio)
+(2, A)
+(3, AB)
+(4, ABC)
+(5, ABCF)
+(6, ABCFG)
+(7, ABCFGI)
+(8, ABCFGIJ)
+(9, ABCFGIJK)
 (Rx, ABCFGIJK)
