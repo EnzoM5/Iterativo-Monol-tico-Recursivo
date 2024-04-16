@@ -1,3 +1,51 @@
+
+HOJE
+HOJE
+Luis Imhotep
+A-> int num;
+B-> num < 2;
+C-> print("Não é primo")
+D-> i in range(2,num)
+E-> num % i = 0
+F-> print("é primo")
+
+Maquina de Traços
+n=3
+
+(1, vazio)
+(2, A)
+(3, AB)
+(4, ABD)
+(5, ABDE)
+(6, ABDEF)
+(Rx, ABDEF)
+interativo
+22:24
+ITERATIVO: 
+
+A-> int num;
+B*-> num < 2;
+C-> print("Não é primo")
+D-> i in range(2,num)
+E*-> num % i = 0
+F-> print("não é primo")
+G-> print("é primo")
+H-> BREAK;
+
+Maquina de Traços
+n=3
+
+(1, vazio)
+(2, A)
+(3, AB)
+(4, ABD)
+(5, ABDE)
+(6, ABDEG)
+(7, ABDEGH)
+(Rx, ABDEGH)
+22:39
+RECURSIVO:
+
 A-> int num
 B-> int i = 2
 C*-> num < 2
@@ -22,4 +70,67 @@ n = 3
 (8, ABCEFHI)
 (9, ABCEFHIJ)
 (Rx, ABCEFHIJ)
+22:40
+https://www.onlinegdb.com/online_c_compiler
+22:51
+github.com
+https://github.com/EnzoM5/Iterativo-Monol-tico-Recursivo.git
+github.com
+https://github.com/EnzoM5/Iterativo-Monol-tico-Recursivo.git
+22:52
+22:56
+A-> num = int(input('Digite um valor: '));
+B-> int i = 2
+C*-> num < 2
+D-> print('não é primo')
+E*-> i < num
+F*-> num % i == 0
+G-> print("Não é primo")
+H-> verificar_primo_recursivo(num, i+1)
+I-> print("É primo")
+J-> BREAK;
+
+Maquina de Traços
+n = 3
+
+(1, vazio)
+(2, A)
+(3, AB)
+(4, ABC)
+(5, ABCE)
+(6, ABCEF)
+(7, ABCEFH)
+(8, ABCEFHI)
+(9, ABCEFHIJ)
+(Rx, ABCEFHIJ)
+23:24
+A-> num = int(input('Digite um valor: '));
+B-> int i = 2
+C*-> num < 2
+D-> print('não é primo')
+E*-> i < num
+F*-> num % i == 0
+G-> print("Não é primo")
+H-> verificar_primo_recursivo(num, i+1)
+I-> print("É primo")
+J-> BREAK;
+
+Maquina de Traços
+n = 3
+
+(1, vazio)
+(2, A)
+(3, AB)
+(4, ABC)
+(5, ABCE)
+(6, ABCEF)
+(7, ABCEFH)
+(8, ABCEFHC)
+(9, ABCEFHCE)
+(10, ABCEFHCEF)
+(11, ABCEFHCEFI)
+(12, ABCEFHCEFIJ)
+(Rx, ABCEFHCEFIJ)
+23:30
+
 
